@@ -1,0 +1,18 @@
+<script>
+function fun1(){
+var no=document.getElementById("t1").value;
+var no2=document.getElementById("t2").value;
+document.getElementById("t3").value=parseInt(no)+parseInt(no2);
+}
+</script>
+
+<body>
+<input type="text" placeholder="No1" id="t1"/>
+<br/>
+ <input type="text" placeholder="No2" id="t2"/>
+ <br/>
+ <input type="text" placeholder="res" id="t3"/>
+ <br/>
+ 
+<input type="button" value="+" onclick="fun1()"/>
+ </body>
