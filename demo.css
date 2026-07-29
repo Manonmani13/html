@@ -1,0 +1,12 @@
+.special{
+color:blue;
+}
+
+.li a{
+background:blue;
+color:white;
+}
+li:nth-of-type(2)
+{
+color:pink;
+}
