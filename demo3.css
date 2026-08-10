@@ -1,0 +1,13 @@
+div{
+color:red;
+
+}
+ul li a{
+background: blue;
+color:white;
+}
+ul:nth-of-type(2){
+color:red;
+}
+
+
