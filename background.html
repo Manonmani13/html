@@ -1,14 +1,45 @@
 <html>
 <style>
-h1{
-background:red;
-color: white;
-border-color:blue;
-border-width: thick;
-border-style:solid;
+.left{
+    width: 50%;
+    background:blue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.right{
+   
+    width:50%;
+}
+.right img{
+    width:100%;
+             height:100%;
+
+     object-fit:cover;
+
+}
+.margin{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    display:flex;
+    width:100%;
+    height:100vh;
 }
 </style>
 <body>
-<h1>Hello Mano</h1>
+<div class="container">
+    <p>Welcome to Css</p>
+    <div class="left">
+        <h1>Welcome</h1>
+
+    </div>
+    <div class="right">
+        <img href="/home/manonmani/Documents/ReactJs/image/natural.jpeg" alt="Natural"/>
+    </div>
+    </div>
 </body>
 </html>
