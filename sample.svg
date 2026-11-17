@@ -1,0 +1,213 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2400" viewBox="0 0 1800 2400">
+  <defs>
+    <style>
+      .bg { fill: #f4f7fb; }
+      .title { font: bold 42px Arial; fill: #15345b; }
+      .subtitle { font: 20px Arial; fill: #52657c; }
+      .heading { font: bold 24px Arial; fill: #ffffff; }
+      .body { font: 17px Arial; fill: #24364b; }
+      .small { font: 15px Arial; fill: #34495e; }
+      .card { fill: #ffffff; stroke: #b8c9dc; stroke-width: 2; rx: 16; }
+      .blue { fill: #245b91; }
+      .green { fill: #287a62; }
+      .purple { fill: #6952a3; }
+      .orange { fill: #b86b25; }
+      .red { fill: #a94343; }
+      .line { stroke: #7890aa; stroke-width: 3; fill: none; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1800" height="2400"/>
+
+  <text x="900" y="65" text-anchor="middle" class="title">COMPLETE COMPUTER NETWORKING GUIDE</text>
+  <text x="900" y="105" text-anchor="middle" class="subtitle">Beginner to Advanced | Concepts • Protocols • Devices • Real-Time Examples</text>
+
+  <!-- 1 Fundamentals -->
+  <rect x="40" y="145" width="840" height="260" class="card"/>
+  <rect x="40" y="145" width="840" height="48" class="blue" rx="14"/>
+  <text x="65" y="178" class="heading">1. NETWORKING FUNDAMENTALS</text>
+  <text x="70" y="230" class="body">• Network: Two or more devices connected to share data.</text>
+  <text x="70" y="265" class="body">• LAN: Local Area Network — office, home, building.</text>
+  <text x="70" y="300" class="body">• WAN: Wide Area Network — connects distant networks.</text>
+  <text x="70" y="335" class="body">• MAN: Metropolitan Area Network — city-level network.</text>
+  <text x="70" y="370" class="body">• PAN / CAN / WLAN / SAN — personal, campus, wireless, storage.</text>
+
+  <!-- 2 Topologies -->
+  <rect x="920" y="145" width="840" height="260" class="card"/>
+  <rect x="920" y="145" width="840" height="48" class="green" rx="14"/>
+  <text x="945" y="178" class="heading">2. NETWORK TOPOLOGIES</text>
+  <text x="950" y="230" class="body">• Star: All devices connect to a central switch.</text>
+  <text x="950" y="265" class="body">• Bus: Devices share one backbone cable.</text>
+  <text x="950" y="300" class="body">• Ring: Devices form a circular connection.</text>
+  <text x="950" y="335" class="body">• Mesh: Devices have multiple interconnections.</text>
+  <text x="950" y="370" class="body">• Tree / Hybrid: Hierarchical or combined topologies.</text>
+
+  <!-- 3 IP -->
+  <rect x="40" y="435" width="840" height="330" class="card"/>
+  <rect x="40" y="435" width="840" height="48" class="purple" rx="14"/>
+  <text x="65" y="468" class="heading">3. IP ADDRESSING & SUBNETTING</text>
+  <text x="70" y="525" class="body">• IP address: Logical address used to identify a device.</text>
+  <text x="70" y="560" class="body">• IPv4: 32-bit address — 192.168.1.10</text>
+  <text x="70" y="595" class="body">• IPv6: 128-bit address — larger address space.</text>
+  <text x="70" y="630" class="body">• Public IP: Used for internet-facing communication.</text>
+  <text x="70" y="665" class="body">• Private IP: Used inside private networks.</text>
+  <text x="70" y="700" class="body">• Subnet mask / CIDR: Defines network and host portions.</text>
+  <text x="70" y="735" class="body">• Subnetting: Divides a network into smaller networks.</text>
+
+  <!-- 4 Devices -->
+  <rect x="920" y="435" width="840" height="330" class="card"/>
+  <rect x="920" y="435" width="840" height="48" class="orange" rx="14"/>
+  <text x="945" y="468" class="heading">4. NETWORKING DEVICES</text>
+  <text x="950" y="525" class="body">• Hub: Sends received data to all ports.</text>
+  <text x="950" y="560" class="body">• Switch: Forwards frames using MAC addresses.</text>
+  <text x="950" y="595" class="body">• Router: Forwards packets between IP networks.</text>
+  <text x="950" y="630" class="body">• Modem: Connects a network to an ISP service.</text>
+  <text x="950" y="665" class="body">• Firewall: Filters network traffic using security rules.</text>
+  <text x="950" y="700" class="body">• Access Point: Connects wireless devices to a LAN.</text>
+  <text x="950" y="735" class="body">• Repeater / Bridge: Extends or connects network segments.</text>
+
+  <!-- 5 OSI -->
+  <rect x="40" y="795" width="840" height="390" class="card"/>
+  <rect x="40" y="795" width="840" height="48" class="blue" rx="14"/>
+  <text x="65" y="828" class="heading">5. OSI MODEL — 7 LAYERS</text>
+  <g class="body">
+    <rect x="70" y="865" width="750" height="38" fill="#dce8f5" rx="6"/>
+    <text x="90" y="891">7. Application — HTTP, HTTPS, DNS</text>
+    <rect x="70" y="908" width="750" height="38" fill="#e6def5" rx="6"/>
+    <text x="90" y="934">6. Presentation — Encryption, encoding, compression</text>
+    <rect x="70" y="951" width="750" height="38" fill="#dcefe7" rx="6"/>
+    <text x="90" y="977">5. Session — Starts, manages and ends sessions</text>
+    <rect x="70" y="994" width="750" height="38" fill="#fff0d8" rx="6"/>
+    <text x="90" y="1020">4. Transport — TCP, UDP; ports and segmentation</text>
+    <rect x="70" y="1037" width="750" height="38" fill="#f8dfdf" rx="6"/>
+    <text x="90" y="1063">3. Network — IP addressing and routing</text>
+    <rect x="70" y="1080" width="750" height="38" fill="#e4e9ed" rx="6"/>
+    <text x="90" y="1106">2. Data Link — Frames and MAC addresses</text>
+    <rect x="70" y="1123" width="750" height="38" fill="#dce8f5" rx="6"/>
+    <text x="90" y="1149">1. Physical — Cables, signals, bits</text>
+  </g>
+
+  <!-- 6 Protocols -->
+  <rect x="920" y="795" width="840" height="390" class="card"/>
+  <rect x="920" y="795" width="840" height="48" class="green" rx="14"/>
+  <text x="945" y="828" class="heading">6. IMPORTANT NETWORK PROTOCOLS</text>
+  <text x="950" y="880" class="body">• TCP: Reliable, connection-oriented communication.</text>
+  <text x="950" y="920" class="body">• UDP: Connectionless, low-overhead communication.</text>
+  <text x="950" y="960" class="body">• HTTP / HTTPS: Web communication.</text>
+  <text x="950" y="1000" class="body">• DNS: Resolves domain names to IP addresses.</text>
+  <text x="950" y="1040" class="body">• DHCP: Automatically assigns network configuration.</text>
+  <text x="950" y="1080" class="body">• ARP: Resolves IPv4 addresses to local MAC addresses.</text>
+  <text x="950" y="1120" class="body">• ICMP: Diagnostics and error reporting (e.g. ping).</text>
+  <text x="950" y="1160" class="body">• SSH / FTP / SMTP / NTP: Remote access, files, mail, time.</text>
+
+  <!-- 7 TCP IP -->
+  <rect x="40" y="1215" width="840" height="260" class="card"/>
+  <rect x="40" y="1215" width="840" height="48" class="purple" rx="14"/>
+  <text x="65" y="1248" class="heading">7. TCP/IP MODEL & DATA ENCAPSULATION</text>
+  <text x="70" y="1300" class="body">Application → HTTP, DNS, DHCP</text>
+  <text x="70" y="1335" class="body">Transport → TCP / UDP segments or datagrams</text>
+  <text x="70" y="1370" class="body">Internet → IP packets</text>
+  <text x="70" y="1405" class="body">Network Access → Frames and physical bits</text>
+  <text x="70" y="1450" class="small">Data → Segment → Packet → Frame → Bits</text>
+
+  <!-- 8 Switching -->
+  <rect x="920" y="1215" width="840" height="260" class="card"/>
+  <rect x="920" y="1215" width="840" height="48" class="orange" rx="14"/>
+  <text x="945" y="1248" class="heading">8. SWITCHING & VLAN</text>
+  <text x="950" y="1300" class="body">• VLAN: Separates one physical LAN into logical networks.</text>
+  <text x="950" y="1335" class="body">• Access port: Usually carries one VLAN.</text>
+  <text x="950" y="1370" class="body">• Trunk port: Carries multiple VLANs.</text>
+  <text x="950" y="1405" class="body">• STP: Prevents Layer 2 switching loops.</text>
+  <text x="950" y="1450" class="small">VTP: Cisco protocol for distributing VLAN information.</text>
+
+  <!-- 9 Routing -->
+  <rect x="40" y="1505" width="840" height="260" class="card"/>
+  <rect x="40" y="1505" width="840" height="48" class="blue" rx="14"/>
+  <text x="65" y="1538" class="heading">9. ROUTING</text>
+  <text x="70" y="1590" class="body">• Static routing: Routes configured manually.</text>
+  <text x="70" y="1625" class="body">• Dynamic routing: Routers learn routes automatically.</text>
+  <text x="70" y="1660" class="body">• RIP: Distance-vector routing protocol.</text>
+  <text x="70" y="1695" class="body">• OSPF / EIGRP: Internal routing protocols.</text>
+  <text x="70" y="1730" class="body">• BGP: Exchanges routes between autonomous systems.</text>
+
+  <!-- 10 Security -->
+  <rect x="920" y="1505" width="840" height="260" class="card"/>
+  <rect x="920" y="1505" width="840" height="48" class="red" rx="14"/>
+  <text x="945" y="1538" class="heading">10. NETWORK SECURITY</text>
+  <text x="950" y="1590" class="body">• Firewall: Allows or blocks traffic based on rules.</text>
+  <text x="950" y="1625" class="body">• VPN: Creates an encrypted network tunnel.</text>
+  <text x="950" y="1660" class="body">• TLS: Protects data in transit.</text>
+  <text x="950" y="1695" class="body">• ACL: Controls traffic based on defined rules.</text>
+  <text x="950" y="1730" class="body">• Proxy / Load Balancer / QoS / MTU.</text>
+
+  <!-- 11 Commands -->
+  <rect x="40" y="1795" width="840" height="250" class="card"/>
+  <rect x="40" y="1795" width="840" height="48" class="green" rx="14"/>
+  <text x="65" y="1828" class="heading">11. NETWORKING COMMANDS — LINUX</text>
+  <text x="70" y="1880" class="body">ip addr — Display IP addresses</text>
+  <text x="70" y="1915" class="body">ip route — Display routing table</text>
+  <text x="70" y="1950" class="body">ping — Test connectivity</text>
+  <text x="70" y="1985" class="body">traceroute — Trace network path</text>
+  <text x="70" y="2020" class="body">ss -tulnp — Show listening sockets</text>
+
+  <!-- 12 Tools -->
+  <rect x="920" y="1795" width="840" height="250" class="card"/>
+  <rect x="920" y="1795" width="840" height="48" class="purple" rx="14"/>
+  <text x="945" y="1828" class="heading">12. PRACTICAL NETWORKING TOOLS</text>
+  <text x="950" y="1880" class="body">• Wireshark: Inspect and analyze network packets.</text>
+  <text x="950" y="1915" class="body">• Cisco Packet Tracer: Practice network configurations.</text>
+  <text x="950" y="1950" class="body">• GNS3: Build virtual network labs.</text>
+  <text x="950" y="1985" class="body">• curl: Test HTTP and API communication.</text>
+  <text x="950" y="2020" class="body">• nslookup / dig: Investigate DNS resolution.</text>
+
+  <!-- 13 Banking flow -->
+  <rect x="40" y="2075" width="1720" height="265" class="card"/>
+  <rect x="40" y="2075" width="1720" height="48" class="orange" rx="14"/>
+  <text x="65" y="2108" class="heading">13. REAL-TIME BANKING APPLICATION — NETWORK FLOW</text>
+
+  <g>
+    <rect x="75" y="2160" width="210" height="75" fill="#dce8f5" rx="12"/>
+    <text x="180" y="2190" text-anchor="middle" class="body">User / Browser</text>
+    <text x="180" y="2217" text-anchor="middle" class="small">Request</text>
+
+    <path d="M285 2198 H345" class="line"/>
+    <path d="M335 2188 L345 2198 L335 2208" class="line"/>
+
+    <rect x="345" y="2160" width="210" height="75" fill="#e6def5" rx="12"/>
+    <text x="450" y="2190" text-anchor="middle" class="body">DNS</text>
+    <text x="450" y="2217" text-anchor="middle" class="small">Find server IP</text>
+
+    <path d="M555 2198 H615" class="line"/>
+    <path d="M605 2188 L615 2198 L605 2208" class="line"/>
+
+    <rect x="615" y="2160" width="210" height="75" fill="#dcefe7" rx="12"/>
+    <text x="720" y="2190" text-anchor="middle" class="body">Firewall / WAF</text>
+    <text x="720" y="2217" text-anchor="middle" class="small">Security check</text>
+
+    <path d="M825 2198 H885" class="line"/>
+    <path d="M875 2188 L885 2198 L875 2208" class="line"/>
+
+    <rect x="885" y="2160" width="210" height="75" fill="#fff0d8" rx="12"/>
+    <text x="990" y="2190" text-anchor="middle" class="body">Load Balancer</text>
+    <text x="990" y="2217" text-anchor="middle" class="small">Distribute traffic</text>
+
+    <path d="M1095 2198 H1155" class="line"/>
+    <path d="M1145 2188 L1155 2198 L1145 2208" class="line"/>
+
+    <rect x="1155" y="2160" width="210" height="75" fill="#f8dfdf" rx="12"/>
+    <text x="1260" y="2190" text-anchor="middle" class="body">API / Backend</text>
+    <text x="1260" y="2217" text-anchor="middle" class="small">Business logic</text>
+
+    <path d="M1365 2198 H1425" class="line"/>
+    <path d="M1415 2188 L1425 2198 L1415 2208" class="line"/>
+
+    <rect x="1425" y="2160" width="260" height="75" fill="#dce8f5" rx="12"/>
+    <text x="1555" y="2190" text-anchor="middle" class="body">Database / WSO2</text>
+    <text x="1555" y="2217" text-anchor="middle" class="small">Data / Integration</text>
+  </g>
+
+  <text x="900" y="2300" text-anchor="middle" class="small">HTTPS + TLS protect communication | TCP provides reliable transport | IP routes packets</text>
+
+  <text x="900" y="2370" text-anchor="middle" class="subtitle">Learn the concept • Understand the packet flow • Practise with real tools</text>
+</svg>
